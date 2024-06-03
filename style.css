@@ -17,8 +17,15 @@ padding-top: 7rem;
 }
 .texts h2{
 font-size: 2rem;
-
+font-family: "Pacifico", cursive;
+ color: #498B95;
 }
+.texts h3{
+padding-top: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+color: #498B95;
+}
+
 
 .flex{
 display: flex;
@@ -68,7 +75,9 @@ margin-top: 3.5rem;
 .hello h1, .hello p{
 text-align: center;
 }
-
+.hello h1{
+color: #498B95;
+}
 .hello p{
 padding-top: 2rem;
 }
@@ -77,8 +86,10 @@ padding-top: 2rem;
 font-size: 2rem;
 }
 .skills{
-margin-top: 3.5rem;
+margin-top: 3rem;
 text-align: center;
+color:#498B95;
+padding-bottom: 2rem;
 }
 .cover{
 width: 60%;
@@ -111,6 +122,9 @@ padding-top: 1.5rem;
 .wrap h3, .wrap p{
 text-align: center;
 }
+.wrap h3{
+color: #498B95;
+}
 
 .after{
 margin-top: 2rem;
@@ -121,6 +135,9 @@ width: 70%;
 .after p{
 padding-top: 1.5rem;
 line-height: 1.7;
+}
+.after h3{
+color: #498B95;
 }
 .contain{
 position: relative;
@@ -149,6 +166,12 @@ text-decoration: underline;
 /* border: 2px solid blue; */
 padding-top: 4rem;
 font-size: 2rem;
+padding-bottom: 2rem;
+color: green;
+}
+
+#portfolio h1 u{
+/* color: #498B95; */
 }
 
 .flex-gallery{
