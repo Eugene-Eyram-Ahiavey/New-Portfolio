@@ -1,0 +1,304 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#hero-section{
+width: 100%;
+height: 60vh;
+background-color: #E9F2F9;
+position: relative;
+}
+
+.texts{
+text-align: center;
+padding-top: 7rem;
+}
+.texts h2{
+font-size: 2rem;
+
+}
+
+.flex{
+display: flex;
+justify-content: space-between;
+}
+
+.top{
+margin-left: 10rem;
+margin-top: 5rem;
+}
+.cloud-2{
+margin-top: -8rem;
+margin-right: 20%;
+}
+
+.mountain{
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+text-align: center;
+}
+.mountain img{
+width: 100%;
+max-width: 400px;
+height: 200px;
+}
+
+#second-section{
+width: 100%;
+height: 50vh;
+}
+
+.hello{
+width: 70%;
+margin: 0 auto;
+}
+
+.profile{
+width: 300px;
+border-radius: 50%;
+display: block;
+margin: auto;
+margin-top: 3.5rem;
+}
+.hello h1, .hello p{
+text-align: center;
+}
+
+.hello p{
+padding-top: 2rem;
+}
+
+.hello p + p{
+font-size: 2rem;
+}
+.skills{
+margin-top: 3.5rem;
+text-align: center;
+}
+.cover{
+width: 60%;
+margin: 0 auto;
+/* border: 2px solid red; */
+position: relative;
+height: 80vh;
+}
+.bar-one, .bar-two{
+width: 100%;
+height: 15px;
+background-color: black;
+margin: auto;
+}
+.img{
+width: 250px;
+display: inline-block;
+}
+.wrap{
+display: inline-block;
+width: 60%;
+position:absolute;
+top: 3rem;
+}
+.wrap p{
+padding-top: 1.5rem;
+}
+
+
+.wrap h3, .wrap p{
+text-align: center;
+}
+
+.after{
+margin-top: 2rem;
+/* position: relative; */
+/* border: 2px solid green; */
+width: 70%;
+}
+.after p{
+padding-top: 1.5rem;
+line-height: 1.7;
+}
+.contain{
+position: relative;
+}
+.teacher{
+width: 250px;
+display:block;
+position: absolute;
+right: 0;
+top: -1.7rem;
+}
+.break{
+text-align: center;
+margin-top: 12rem;
+font-size: 1.5rem;
+}
+
+#portfolio{
+width: 100%;
+height: 100vh;
+background: lightgray;
+}
+#portfolio h1{
+text-align: center;
+text-decoration: underline;
+/* border: 2px solid blue; */
+padding-top: 4rem;
+font-size: 2rem;
+}
+
+.flex-gallery{
+width: 75%;
+margin: auto;
+/* border: 2px solid teal; */
+height: 80%;
+display: flex;
+flex-direction: column;
+}
+.first-container{
+/* border: 2px solid black; */
+flex-basis: 50%;
+display: flex;
+}
+.second-container{
+/* border: 2px solid blue; */
+flex-basis: 50%;
+display: flex;
+margin-top: 10px;
+}
+
+.new-month-dark{
+background: url(./Resources/1.jpg);
+background-position: center;
+background-size: cover;
+flex-basis: 35%;
+
+}
+.new-month-drug{
+    background: url(./Resources/2.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-basis: 35%;
+
+}
+.new-month-computer{
+ background: url(./Resources/3.jpg);
+background-position: center;
+background-size: cover;
+flex-basis: 35%;
+
+}
+.new-month-feb{
+background: url(./Resources/4.jpg);
+background-position: center;
+background-size: cover;
+flex-basis: 35%;
+
+}
+.capacity{
+background: url(./Resources/5.jpg);
+background-position: center;
+background-size: cover;
+flex-basis: 35%;
+
+}
+.cap-shirt{
+background: url(./Resources/6.jpg);
+background-position: center;
+background-size: cover;
+flex-basis: 35%;
+}
+
+.cap-shirt, .capacity, .new-month-computer, .new-month-drug{
+margin-left: 10px;
+}
+
+.cap-shirt:hover{
+transform: scale(1.1);
+}
+.capacity:hover{
+transform: scale(1.1);
+}
+.new-month-computer:hover{
+transform: scale(1.1);
+}
+.new-month-drug:hover{
+transform: scale(1.1);
+}
+.new-month-dark:hover{
+transform: scale(1.1);
+}
+.new-month-feb:hover{
+transform: scale(1.1);
+}
+
+
+#bottom{
+width: 100%;
+height: 50vh;
+/* border: 2px solid black; */
+}
+
+.center{
+text-align: center;
+margin-top: 5rem;
+}
+
+.center h2{
+padding-top: 2rem;
+color: #498B95;
+}
+.center h3{
+color: #498B95;
+}
+.center p, .center h3{
+padding-top: 1rem;
+}
+
+button{
+padding: 15px 35px;
+display: inline-block;
+margin-top: 2rem;
+background-color: #498B95;
+border: none;
+color: #fff;
+border-radius: 25px;
+text-transform: uppercase;
+cursor: pointer;
+}
+button a{
+text-decoration: none;
+display: inline-block;
+color: #fff;
+}
+button:hover{
+background-color: rgb(152, 216, 57);
+}
+
+#last{
+width: 100%;
+height: 20vh;
+background-color: #498B95;
+}
+
+.links{
+padding-top: 3rem;
+display: flex;
+width: 60%;
+margin: auto;
+justify-content: space-around;
+}
+.links a{
+display: block;
+text-decoration: none;
+}
+
+footer p{
+text-align: center;
+color: white;
+margin-top: 2rem;
+}
