@@ -242,21 +242,30 @@ margin-left: 10px;
 
 .cap-shirt:hover{
 transform: scale(1.1);
+transition: all 1s;
 }
 .capacity:hover{
 transform: scale(1.1);
+transition: all 1s;
+
 }
 .new-month-computer:hover{
 transform: scale(1.1);
+transition: all 1s;
+
 }
 .new-month-drug:hover{
 transform: scale(1.1);
+transition: all 1s;
+
 }
 .new-month-dark:hover{
 transform: scale(1.1);
+transition: all 1s;
 }
 .new-month-feb:hover{
 transform: scale(1.1);
+transition: all 1s;
 }
 
 
